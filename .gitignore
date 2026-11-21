@@ -1,0 +1,13 @@
+# Dữ liệu thật: chứa thông tin cá nhân, KHÔNG BAO GIỜ commit
+raw_docs/
+duplicates/
+*.pdf
+*.docx
+*.rar
+*.log
+# Dữ liệu tổng hợp: lớn, sinh lại bằng script
+synth_data/
+synth_cv/
+eval_data/
+__pycache__/
+*.pyc
