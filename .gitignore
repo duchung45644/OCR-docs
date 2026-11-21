@@ -1,13 +1,18 @@
-# Dữ liệu thật: chứa thông tin cá nhân, KHÔNG BAO GIỜ commit
-raw_docs/
-duplicates/
+# Chỉ giữ cấu trúc thư mục (README.md), bỏ toàn bộ nội dung dữ liệu.
+# raw_docs/, duplicates/: dữ liệu thật có thông tin cá nhân, KHÔNG BAO GIỜ commit.
+raw_docs/*
+!raw_docs/README.md
+duplicates/*
+!duplicates/README.md
+synth_data/*
+!synth_data/README.md
+synth_cv/*
+!synth_cv/README.md
+eval_data/
 *.pdf
 *.docx
 *.rar
 *.log
-# Dữ liệu tổng hợp: lớn, sinh lại bằng script
-synth_data/
-synth_cv/
-eval_data/
 __pycache__/
 *.pyc
+*.zip
